@@ -33,12 +33,12 @@ var sketch = function(p) {
   var agents = [];
   var agentCount = 4000;
   var noiseScale = 100;
-  var noiseStrength = 10;
+  var noiseStrength = 100;
   var noiseZRange = 0.4;
   var noiseZVelocity = 0.01;
   var overlayAlpha = 10;
   var agentAlpha = 90;
-  var strokeWidth = 0.3;
+  var strokeWidth = 0.1;
   var drawMode = 1;
 
   p.setup = function() {
